@@ -98,7 +98,8 @@ h2 {
   margin-bottom: 30px;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
@@ -110,10 +111,14 @@ h3 {
 
 p {
   margin-bottom: 15px;
-
 }
 
 .post-img {
   width: 100%;
   height: auto;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
