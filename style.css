@@ -64,6 +64,7 @@ h3 {
 
 body {
   color: #444;
+  /* position:relative; */
 }
 
 .main-header {
@@ -121,4 +122,30 @@ p {
 .container {
   width: 800px;
   margin: 0 auto;
+  position: relative;
+}
+
+nav a:link,
+nav a:visited {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child,
+nav a:visited:last-child {
+  margin-right: 0;
+}
+
+.like-button {
+  padding: 30px;
+  border: 1px solid aquamarine;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sziv {
+  color: red;
+  font-size: 18px;
 }
