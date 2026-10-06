@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -19,9 +20,9 @@ footer p {
   font-size: 16px;
 }
 
-article header p {
+/*article header p {
   font-style: italic;
-}
+}*/
 
 header p {
   font-style: italic;
@@ -64,7 +65,8 @@ h3 {
 
 body {
   color: #444;
-  /* position:relative; */
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
 }
 
 .main-header {
@@ -77,6 +79,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  width: 500px;
 }
 
 li {
@@ -122,7 +125,6 @@ p {
 .container {
   width: 800px;
   margin: 0 auto;
-  position: relative;
 }
 
 nav a:link,
@@ -148,4 +150,62 @@ nav a:visited:last-child {
 .sziv {
   color: red;
   font-size: 18px;
+}
+
+h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 20px;
+}
+
+p{
+  font-size: 22px;
+  line-height: 1,5;
+}
+
+li{
+  font-size: 20px;
+}
+
+.author, .related-author{
+  font-size: 18px;
+}
+
+footer p{
+  font-size: 16px;
+}
+
+nav{
+  font-size: 18px;
+}
+
+.author-img{
+  width: 50px;
+  height: 50px;
+}
+
+.related{
+  list-style: none;
+}
+
+.related img{
+  width: 70px;
+  height: 70px;
+}
+
+h1{
+  font-style: italic;
+}
+
+h1::first-letter{
+  font-style: normal;
 }
